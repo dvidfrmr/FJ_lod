@@ -3,7 +3,7 @@ import React from "react";
 import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
 
-const options: Highcharts.Options = {
+const chartOptions: Highcharts.Options = {
   title: {
     text: "My chart"
   },
@@ -17,6 +17,6 @@ const options: Highcharts.Options = {
 
 export default class AnalyticChartWidget extends React.Component {
   render() {
-    return <HighchartsReact highcharts={Highcharts} option={options} />;
+    return <HighchartsReact highcharts={Highcharts} options={chartOptions} />;
   }
 }
