@@ -7,6 +7,7 @@ export default function App() {
     <div className="App">
       <AnalyticChartWidget />
       <h1>Hello CodeSandbox</h1>
+      <dic id="container"></dic>
     </div>
   );
 }
